@@ -20,7 +20,7 @@ p{
 .container{
     margin: 80px;
 }
-.buttons{
+.buttons, .input-field{
     font-family: Open Sans;
     text-decoration: none;
     background-color: #FF5959;
@@ -66,20 +66,27 @@ p{
 .donate-amounts{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
+    margin: 0 0 5px ;
 }
 .horizontal-line{
     border: 1px solid;
     padding: 0 700px;
+    margin: 10px 0;
 }
 .amount-boxs{
-    background-color: #FF5959;
+    background-color: #FAFAFA;
     width: 120px;
     height: 100px;
     margin:30px 10px;
     border-radius: 10px;
     
+}
+
+#active-amount{
+    background-color: #e72424c3;
+    border-radius: 5px;
+    border: 1px solid;
 }
 .amounts{
     font-size: 30px;
@@ -93,7 +100,7 @@ p{
     Donate Plan start here
 */
 .donate-plan{
-    margin: 20px 0;
+    margin: 50px 0;
 }
 .flex-content{
     display: flex;
@@ -128,6 +135,20 @@ p{
     background-color: #FFF4D6;
     padding: 50px 20px 50px 15px;
     box-sizing: border-box; 
+}
+
+/* 
+    Update section start here
+*/
+.inputs{
+    background-color: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+.input-field{
+    border-radius: 10px;
 }
 
 /*
