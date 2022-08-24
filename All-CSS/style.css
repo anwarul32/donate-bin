@@ -6,11 +6,23 @@
     font-family: 'Open Sans', 'Roboto', sans-serif;
 }
 
+h1{
+    font-size: 45px;
+}
+
+p{
+    font-size: 18px;
+}
+
+/*
+    Header start here!
+*/
 #header{
     background-image: url(/images/banner.jpg);
     background-size: cover;
     padding: 400px;
     text-align: center;
+    color: white;
    
 }
 
@@ -18,7 +30,6 @@
     font-family: Roboto;
     font-size: 80px;
     font-weight: 700;
-    color: white;
 }
 
 .home-description{
@@ -28,6 +39,7 @@
 }
 
 .btn{
+    font-family: Open Sans;
     text-decoration: none;
     background-color: #FF5959;
     padding: 12px 38px;
@@ -36,7 +48,49 @@
     border-radius: 8px;
     margin-top: 10px;
 }
-
+/*
+    Donate Plan start here
+*/
+.donate-plan{
+    margin: 15px 0;
+}
+.content-heading, .content-description{
+    text-align: center;
+}
+.flex-content{
+    display: flex;
+    justify-content: center;
+}
+.flex-heading{
+    font-size: 24px;
+    margin:20px 5px 0;
+}
+.flex-description{
+    font-size: 16px;
+    margin:20px 5px 0;
+}
+.foods, .shelter, .education{
+    width: 360px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.foods{
+    background-color: #4F9DA61A;
+    padding: 50px 20px 50px 15px;
+    box-sizing: border-box; 
+    
+}
+.shelter{
+    background-color: rgba(255, 89, 89, 0.1);
+    padding: 50px 20px 50px 15px;
+    box-sizing: border-box; 
+}
+.education{
+    background-color: #FFF4D6;
+    padding: 50px 20px 50px 15px;
+    box-sizing: border-box; 
+}
 
 /*
      Footer start here 
