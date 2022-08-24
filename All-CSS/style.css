@@ -39,7 +39,7 @@ p{
     Header start here!
 */
 #header{
-    background-image: url(/images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-size: cover;
     padding: 300px;
     text-align: center;
