@@ -20,7 +20,7 @@ p{
 .container{
     margin: 80px;
 }
-.buttons, .input-field{
+.buttons{
     font-family: Open Sans;
     text-decoration: none;
     background-color: #FF5959;
@@ -39,7 +39,6 @@ p{
     Header start here!
 */
 #header{
-    background-color: #D9DBE1;
     background-image: url(/images/banner.jpg);
     background-size: cover;
     padding: 300px;
@@ -146,9 +145,6 @@ p{
     justify-content: center;
     align-items: center;
     height: 200px;
-}
-.input-field{
-    border-radius: 10px;
 }
 
 /*
