@@ -8,19 +8,41 @@
 
 h1{
     font-size: 45px;
+    font-family: Roboto;
+    font-weight: 700;
 }
 
 p{
-    font-size: 18px;
+    font-size: 25px;
+    font-family: Open Sans;
+}
+
+.container{
+    margin: 80px;
+}
+.buttons{
+    font-family: Open Sans;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 12px 38px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.content-heading, .content-description{
+    text-align: center;
 }
 
 /*
     Header start here!
 */
 #header{
+    background-color: #D9DBE1;
     background-image: url(/images/banner.jpg);
     background-size: cover;
-    padding: 400px;
+    padding: 300px;
     text-align: center;
     color: white;
    
@@ -38,24 +60,40 @@ p{
     margin: 10px 0;
 }
 
-.btn{
-    font-family: Open Sans;
-    text-decoration: none;
-    background-color: #FF5959;
-    padding: 12px 38px;
-    color: white;
-    font-weight: 700;
-    border-radius: 8px;
-    margin-top: 10px;
+/* 
+    Donate Amounts start here
+*/
+.donate-amounts{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
 }
+.horizontal-line{
+    border: 1px solid;
+    padding: 0 700px;
+}
+.amount-boxs{
+    background-color: #FF5959;
+    width: 120px;
+    height: 100px;
+    margin:30px 10px;
+    border-radius: 10px;
+    
+}
+.amounts{
+    font-size: 30px;
+    font-weight: 700;
+    padding: 25px;
+}
+
+
+
 /*
     Donate Plan start here
 */
 .donate-plan{
-    margin: 15px 0;
-}
-.content-heading, .content-description{
-    text-align: center;
+    margin: 20px 0;
 }
 .flex-content{
     display: flex;
