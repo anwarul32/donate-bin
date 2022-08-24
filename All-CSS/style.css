@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+}
+
+#header{
+    background-image: url(/images/banner.jpg);
+    background-size: cover;
+    padding: 400px;
+    text-align: center;
+   
+}
+
+.home-heading{
+    font-family: Roboto;
+    font-size: 80px;
+    font-weight: 700;
+    color: white;
+}
+
+.home-description{
+    font-family: Open Sans;
+    font-size: 28px;
+    margin: 10px 0;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 12px 38px;
+    color: white;
+    font-weight: 700;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+
+/*
+     Footer start here 
+*/
+
+.footer{
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+.footer-heading{
+color: #FF5959;
+font-family: Roboto;
+}
+
+.footer-paragraph{
+    color: #D9DBE1;
+    font-family: Open Sans;
+}
